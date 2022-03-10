@@ -1,0 +1,20 @@
+type Hotel {
+    id:         ID!
+    title:      String!
+    distance:     Int!
+    place:       string!
+    review:       Int
+    price:       string!
+    picture:     string!
+}
+type Query{
+ hotels: [Hotel!]!
+ hotel(id: ID!): Hotel!
+}
+
+
+type Mutation{
+    createHotel(title: String!, distance: Int!, place: String!, review: Int, price: String!, picture: String): Hotel!
+    updateHotel(id: ID!, title: String!, distance: Int!, place: String!, review: Int!, price: String!, picture: String!): Hotel!
+    deleteHotel(id: ID!): Boolean!
+}

@@ -1,0 +1,23 @@
+{
+  "name": "apireservationhotel",
+  "version": "1.0.0",
+  "description": "api réservation hotel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimTal/graphqlAPIHotel.git"
+  },
+  "author": "Ibrahima Alioune TALL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimTal/graphqlAPIHotel/issues"
+  },
+  "homepage": "https://github.com/ibrahimTal/graphqlAPIHotel#readme",
+  "dependencies": {
+    "graphpack": "^1.0.9"
+  }
+}
